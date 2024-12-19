@@ -1,6 +1,6 @@
-============
+================
 django-nfctags
-============
+================
 
 django-nfctags is a Django app to integrate NFC Tags with a web-based app. Each
 NFC Tag will have a unique identifier and a URL that will be opened when the
