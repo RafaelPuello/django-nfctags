@@ -1,49 +1,88 @@
-# Sphinx documentation
-docs/_build/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Environments
-.env
-.venv
+# C extensions
+*.so
+
+# Virtual environment
 env/
 venv/
+ENV/
+.VENV/
 
 # Django stuff:
 *.log
-local_settings.py
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
 db.sqlite3
-db.sqlite3-journal
 
-# Unit test / coverage reports
+# Local settings
+local_settings.py
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+static/
+
+# Ignore migrations (optional, if you don't want to track migrations)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# VS Code files
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS files
+.DS_Store
+
+# Linux
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+
+# pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+poetry.lock
+pyproject.toml
+
+# Coverage reports
 htmlcov/
-.tox/
-.nox/
+*.cover
 .coverage
 .coverage.*
 .cache
-nosetests.xml
+.nosetests.xml
 coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-cover/
+*.coveragerc
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# celery beat schedule file
+celerybeat-schedule
